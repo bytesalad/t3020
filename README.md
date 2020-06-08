@@ -23,3 +23,11 @@ Note, however, there is some missing data in some of the rows. The first few lin
 ### Errors
 
 There are three deliberate errors, marked E1, E2 and E3. Finding other (non-deliberate and unknown to me)  errors will get a bonus -- clearly add below this line in your copy of the README what the errors are and how you fixed them.
+
+An Issue I discovered:
+It may not be considered an "error" but the program would run the code below the functions
+in datamunger.py as well when running unit tests. I took the code required for running the
+program and placed it in a "if __name__ == '__main__'" statement. This stops the full 
+program from running when doing unit tests on the functions.
+
+This makes the console output much clearer for running unit tests.
