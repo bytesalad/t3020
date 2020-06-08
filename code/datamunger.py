@@ -33,7 +33,7 @@ def check_monotonic(prev,curr):
 
 
 def check_row(n, prev, curr_str):
-    #data = []
+    #data = [] never used so I commented out
     curr = []
     for d in curr_str: #E3
         try:

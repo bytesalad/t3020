@@ -41,5 +41,12 @@ class TestDatamunger(unittest.TestCase):
         row = 47
         self.assertTrue(check_row(47, prev, str_vals), 'Invalid Data at Row: ' + str(row))
 
+    def test_empty(self):
+        test_data = ""
+        str_vals  = test_data.strip().split(",")
+        prev = [2732,284,403,266,452,472,542,176,137,218]
+        row = 59
+        self.assertTrue(check_row(59, prev, str_vals), 'Empty Data at Row: ' + str(row))
+
 if __name__ == '__main__':
     unittest.main()
