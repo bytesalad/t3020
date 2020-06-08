@@ -4,6 +4,8 @@
 Name: Scott Hazelhurst
 Date: 7 June
 
+Contributor: Matthew Brown - 1860489
+Date: 8 June
 
 # Description of code -- for question 1.1 and 1.2
 
